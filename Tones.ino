@@ -1,3 +1,12 @@
+#define PB0 0
+#define PB1 1
+#define PB2 2
+#define PB3 3
+#define PB4 4
+#define PB5 5
+#define PB6 6
+#define PB7 7
+
 // Biblioteca utilizada para armazenar dados na memória de programa
 #include <avr/pgmspace.h>
 
@@ -8,7 +17,7 @@
 #include "bits.h"
 
 // Seleciona a musica a ser tocada do arquivo musicas.h
-#define MUSICA 8
+#define MUSICA 7
 
 // Carrega a musica selecionada
 #include "musicas.h"
@@ -122,3 +131,5 @@ void loop() {
       channel3 = 0;
     }
   }
+  
+}
